@@ -1,0 +1,21 @@
+from tkinter2 import*
+
+class threeb:
+    def __init__(self,root):
+        self.f = Frame(root, height=1000, width=500, bg="green", cursor="heart")
+        self.f.propagate(0)
+        self.f.pack()
+root=Tk()
+self.root.title("first Window")
+self.f =Frame(root,height=1000,width=500,bg="green",cursor="heart")
+self.f .propagate()
+self.b1=Button(f,text="Button1",width=15,height=2,fg="blue",bg="yellow")
+self.b1.pack()
+self.b2= Button(f,text="Button2",width=15,height=2,fg="red",bg="blue")
+self.b2.pack()
+self.b3=Button(f,text="Button2",width=15,height=2,fg="pink",bg="black")
+self.b3.pack()
+root.mainloop()
+
+root=Tk()
+t=threeb()
